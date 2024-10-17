@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "multicloud"
+  name     = "multicloudstaticsite"
   location = "brazilsouth"
 }
 
