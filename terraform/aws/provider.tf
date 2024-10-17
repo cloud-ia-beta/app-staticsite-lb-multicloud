@@ -6,9 +6,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "tf-s3-beta19-001"
+    bucket         = "s3-tf-beta1902-01"
     key            = "terraform.tfstate"
-    dynamodb_table = "tf-dynamo-beta19-001"
+    dynamodb_table = "tf-state-beta1902"
     region         = "us-east-1"
   }
 }
