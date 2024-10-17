@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "multicloud"
-    storage_account_name = "staticsitelbtfroberta"
+    resource_group_name  = "rg-roberta"
+    storage_account_name = "multicloudtfst"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
